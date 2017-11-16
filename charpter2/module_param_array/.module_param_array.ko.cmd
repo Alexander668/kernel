@@ -1,0 +1,1 @@
+cmd_/root/kernel/charpter2/module_param_array/module_param_array.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/kernel/charpter2/module_param_array/module_param_array.ko /root/kernel/charpter2/module_param_array/module_param_array.o /root/kernel/charpter2/module_param_array/module_param_array.mod.o ;  true

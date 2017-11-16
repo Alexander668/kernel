@@ -1,0 +1,1 @@
+cmd_/root/kernel/charpter2/for_each_process/for_each_process.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/kernel/charpter2/for_each_process/for_each_process.ko /root/kernel/charpter2/for_each_process/for_each_process.o /root/kernel/charpter2/for_each_process/for_each_process.mod.o ;  true

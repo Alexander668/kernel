@@ -1,0 +1,1 @@
+cmd_/root/kernel/charpter2/current_pid/current.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/kernel/charpter2/current_pid/current.ko /root/kernel/charpter2/current_pid/current.o /root/kernel/charpter2/current_pid/current.mod.o ;  true

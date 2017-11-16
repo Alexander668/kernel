@@ -1,0 +1,1 @@
+cmd_/root/kernel/charpter2/hello/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/kernel/charpter2/hello/hello.ko /root/kernel/charpter2/hello/hello.o /root/kernel/charpter2/hello/hello.mod.o ;  true

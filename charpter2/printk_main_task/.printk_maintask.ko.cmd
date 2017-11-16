@@ -1,0 +1,1 @@
+cmd_/root/kernel/charpter2/printk_main_task/printk_maintask.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/kernel/charpter2/printk_main_task/printk_maintask.ko /root/kernel/charpter2/printk_main_task/printk_maintask.o /root/kernel/charpter2/printk_main_task/printk_maintask.mod.o ;  true
