@@ -1,0 +1,1 @@
+cmd_/root/kernel/charpter3/llseek/llseek.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/kernel/charpter3/llseek/llseek.ko /root/kernel/charpter3/llseek/llseek.o /root/kernel/charpter3/llseek/llseek.mod.o ;  true
